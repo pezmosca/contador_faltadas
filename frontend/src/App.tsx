@@ -26,7 +26,7 @@ interface Faltada {
   created_at: string;
 }
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://apifaltades.pezmosca.com';
 
 function App() {
   const [count, setCount] = useState(0);
